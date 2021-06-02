@@ -9,7 +9,7 @@ function theme_setpu()
 {
 	load_theme_textdomain('imran',get_template_directory_uri(),'/language');
 	add_theme_support('title-tag');
-	add_theme_support('post-thumbnails' ,array('slider','team','testimonial'));
+	add_theme_support('post-thumbnails' ,array('post','slider','team','testimonial'));
 
 
 
